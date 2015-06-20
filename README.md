@@ -8,7 +8,7 @@ The original data can be found in [Human Activity Recognition Using Smartphones 
 ## File list
 
 * `Project Data` : Original data
-* `ResultTidyData` : The Tidy dataset created after data process
+* `ResultTidyData` : The Tidy dataset created after data processing.
 * `CodeBook.md` : A brief description about the variables in the newly-created tidy dataset, and an overview of how the tidy data was created.
 * `run_analysis.R` : The R script which records the in total 5 steps data cleaning process.
 * `README.md` : Basic info for the repository.
