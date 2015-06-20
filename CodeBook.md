@@ -1,21 +1,21 @@
 # Overview of the data cleaning process
 
-The data cleaning process performed in 'run_analysis.R' contains 5 steps in total.
+The data cleaning process performed in `run_analysis.R` contains 5 steps in total.
 
 * First, we load both training and testing dataset into R. And for both training and testing dataset,
 we associate them with the corresponding subjects and activities. Finally, we merge training and testing
-datasets together using the 'rbind()' function.
+datasets together using the `rbind()` function.
 
 * Second, we extract the features contains only "mean()" and "std()" meaning that we only
-care about the measurements on the mean and standard deviation. 'Mean_Std' is the data.frame
+care about the measurements on the mean and standard deviation. `Mean_Std` is the data.frame
 contains only those columns.
 
 * Third, we coerce the activities back to their descriptive names by releveling the factor variable.
 
 * Fourth, similar to step 3, we use more descriptive names for the variable names so that they are more humanly readable.
 
-* Fifth, for each variable included in 'Mean_Std', we find the average value for each subject on each activity.
-And then, we create an independent data set named 'ResultTidydata.txt'. The newly-created tidy dataset meets all the tidy data principles, 
+* Fifth, for each variable included in `Mean_Std`, we find the average value for each subject on each activity.
+And then, we create an independent data set named `ResultTidydata.txt`. The newly-created tidy dataset meets all the tidy data principles, 
 namely each variable measured should be in one column, each different observation of that variable should be in a different row.
 
 # Variables description
